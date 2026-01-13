@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Button Content="Войти" FontSize="25"  HorizontalAlignment="Center" Margin="0,268,0,0" VerticalAlignment="Top" Height="45" Width="164" Click="Button_Click"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,118,0,0" TextWrapping="Wrap" Text="введите логин" FontSize="24" VerticalAlignment="Top" Width="224" Height="39"/>
+        <TextBox HorizontalAlignment="Center" TextWrapping="Wrap" Text="введите пароль" FontSize="24" VerticalAlignment="Center" Width="224" Height="39"/>
 
     </Grid>
 </Window>
