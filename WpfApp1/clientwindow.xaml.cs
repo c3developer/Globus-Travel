@@ -19,7 +19,10 @@ namespace WpfApp1
     /// </summary>
     public partial class Clientwindow : Window
     {
-        public Clientwindow()
+        private int userId;
+        private string fullName;
+        private string connectionString = @"Data Source=(localdb)\MSSQLLocalDB.;Initial Catalog=TourAgency;Integrated Security=True";
+        public Clientwindow(int userId, string fullName)
         {
             InitializeComponent();
         }

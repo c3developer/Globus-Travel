@@ -19,9 +19,14 @@ namespace WpfApp1
     /// </summary>
     public partial class Adminwindow : Window
     {
-        public Adminwindow()
+        private int userId;
+        private string fullName;
+        private string connectionString = @"Data Source=(localdb)\MSSQLLocalDB.;Initial Catalog=TourAgency;Integrated Security=True";
+        public Adminwindow (int userId, string fullName)
         {
+            
             InitializeComponent();
         }
+
     }
 }
